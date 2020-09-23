@@ -1,1 +1,364 @@
-<!doctype html><html class="no-js" lang=""><head>  <meta charset="utf-8">  <title></title>  <meta name="description" content="">  <meta name="viewport" content="width=device-width, initial-scale=1">  <meta property="og:title" content="">  <meta property="og:type" content="">  <meta property="og:url" content="">  <meta property="og:image" content="">  <link rel="stylesheet" href="css/libs.min.css">  <link rel="stylesheet" href="css/main.min.css"></head><body>  <h2>Это хедер</h2>  <h2>Это слайдер 2</h2>  <!-- Slider main container --><div class="swiper-container">    <!-- Additional required wrapper -->    <div class="swiper-wrapper">        <!-- Slides -->        <div class="swiper-slide">Slide 5</div>        <div class="swiper-slide">Slide 2</div>        <div class="swiper-slide">Slide 3</div>        ...    </div>    <!-- If we need pagination -->    <div class="swiper-pagination"></div>    <!-- If we need navigation buttons -->    <div class="swiper-button-prev"></div>    <div class="swiper-button-next"></div>    <!-- If we need scrollbar -->    <div class="swiper-scrollbar"></div></div>  <h1>Это футер</h1>  <!-- Add your site or application content here -->  <p>Hello world! This is HTML5 Boilerplate.</p>  <script src="js/libs.min.js"></script>   <script src="js/main.min.js"></script>   </body></html>
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+<div class="site-wrapper">
+	<div class="top-area">
+		<div class="container">
+			<header class="site-header">
+				<h1>Москва - аэропорт Шереметьево</h1>
+			</header>
+			<div class="search-block">
+	<h2>Как добраться до аэропорта Шереметьево?</h2>
+	<div id="searchblock" class="addr-search">
+		<div class="addr-search__label">Адрес</div>
+		<div class="addr-search__cont">
+			
+			<div class="addr-search__edit">Редактирование адреса</div>
+			<div class="addr-search__inp-cont">
+				<span id="clearsearch" class="addr-search__close addr-close-btn"></span>
+				<span class="addr-search__srh addr-search-btn"></span>
+				<input id="addrsearch" type="text" class="addr-search__inp" placeholder="Из центра">
+			</div>	
+			<ul class="addr-search__list search-list">
+				<li class="search-list__item js-addr">
+					<div class="search-list__addr">проспект Вернадского, 31</div>
+					<div class="search-list__region">Москва, Россия</div>
+				</li>
+				<li class="search-list__item js-addr">
+					<div class="search-list__addr">проспект Вернадского (дублер)</div>
+					<div class="search-list__region">Москва, Россия</div>
+				</li>
+			</ul>
+			<div class="addr-search__placeholder srh-placeholder">
+				<div id="collapsepsh" class="srh-placeholder__cont">
+				<div class="srh-placeholder__progressbar-cont srh-progressbar">
+					<div class="srh-progressbar__rolle">
+						<div class="srh-progressbar__slider"></div>
+					</div>
+					<div class="srh-progressbar__label">Минуту.. Загружаем данные :)</div>
+				</div>
+				<div class="srh-placeholder__banner-cont">
+					<img src="images/baner.jpg" alt="">
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="addr-search__panel search-panel"></div>
+	</div>
+</div> <!-- eof search-block -->			
+			<div class="routes-block">
+				<div class="slider-cont"> 
+  <!-- Slider main container -->
+  <div class="swiper-container routes-slider js-routes-slider">
+      <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/bus.png" alt="">
+              <div class="routes-card__num">13</div>
+            </div>
+            <div class="routes-card__stop">ост. Кулепино</div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">1 час 40 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 110 ₽</div>            
+          </div>          
+            
+          <div class="routes-card__copyright">©copyright</div>
+          
+        </div>
+      </div>
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/bus.png" alt="">
+              <div class="routes-card__num">10</div>
+            </div>
+            <div class="routes-card__stop">ост. Кулепино</div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">1 час 18 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 110 ₽</div>            
+          </div>        
+           
+          <div class="routes-card__copyright">©copyright</div>       
+          
+        </div>
+      </div>
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/yand.png" alt="">
+              <div class="routes-card__txt">Яндекс.Такси</div>
+            </div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">41 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 530 ₽</div>
+            <div class="routes-card__btn toorder-btn">Заказать</div> 
+          </div>          
+          
+          <div class="routes-card__copyright">©copyright</div>
+          
+        </div>
+      </div>
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/bus.png" alt="">
+              <div class="routes-card__num">12</div>
+            </div>
+            <div class="routes-card__stop">ост. Проспект<br>  Вернадского</div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">1 час 22 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 110 ₽</div>           
+          </div>          
+          <div class="routes-card__copyright">©copyright</div>
+          
+          
+        </div>
+      </div>
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/bus.png" alt="">
+              <div class="routes-card__num">22</div>
+            </div>
+            <div class="routes-card__stop">ост. Проспект<br>  Вернадского</div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">1 час 37 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 110 ₽</div>
+          </div>          
+          <div class="routes-card__copyright">©copyright</div>        
+        </div>
+      </div>
+      <div class="swiper-slide routes-slider__item">
+        <div class="routes-card">
+          <div class="routes-card__header">
+            <div class="routes-card__num-cont">
+              <img src="images/yand.png" alt="">
+              <div class="routes-card__text">Яндекс.Такси</div>
+            </div>
+          </div>
+          <div class="routes-card__time-cont">
+            <div class="routes-card__time-label">Время следования</div>
+            <div class="routes-card__time">41 мин</div>
+          </div>
+          <div class="routes-card__footer">        
+            <div class="routes-card__price">Цена 530 ₽</div>
+            <div class="routes-card__btn toorder-btn">Заказать</div> 
+          </div>
+          <div class="routes-card__copyright">©copyright</div>        
+        </div>
+      </div>
+
+       
+    </div>
+    <!-- If we need pagination -->
+    <div class="routes-slider__pagination slider__pagination"></div>
+    
+  </div>
+<!-- If we need navigation buttons -->
+  <div class="slider__btn slider__btn_prev routes-slider__btn routes-slider__btn_prev"></div>
+  <div class="slider__btn slider__btn_next routes-slider__btn routes-slider__btn_next"></div>
+</div> 
+			</div>
+			<div class="map-block">
+	<div class="map-block__cont">
+		<div class="map-block__map-cont">
+			<div id="map">
+				<iframe class="map-block__frame" src="http://www.openstreetmap.ru/frame.php?noscreenshot=1&mapid=12"></iframe>
+			</div>
+		</div>
+		<div class="map-block__body">
+			<p>Здесь показаны варианты маршрутов от центра города до аэропорта Шереметьево.</p>
+			<p>Для более точного маршрута введи в строку “Адрес” точный пункт отправления, например:</p>
+			<p>ул. Вернадского, 31</p>
+		</div>
+	</div>
+</div>  	
+			
+
+		</div> <!-- eof container -->
+	</div><!-- eof top-area -->
+	<div class="container">
+
+		<div class="form-block frame">
+			<h2>Купить билет из аэропорта Шереметьево</h2>
+		<!-- 	<div class="form-block__form-cont form-block__form-cont_mobile">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/21a30a3fad8ad91169d67d9ecb3503c4.js?v=2009" async></script>
+			</div>
+			<div class="form-block__form-cont form-block__form-cont_tablet">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/804303c693285d3c75761e87ee1cfff1.js?v=2009" async></script>
+			</div> -->
+			<div class="form-block__form-cont form-block__form-cont_desctop">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/ec2b2918df33ba82f51600f6ea514248.js?v=2009" async></script>
+			</div>
+		</div>
+		<div class="flight-block frame">
+			<h2>Популярные рейсы из аэропорта Шереметьево</h2>
+			  <div class="slider-cont">
+    <!-- Slider main container -->
+  <div class="swiper-container flights-slider js-flights-slider">
+      <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+      <div class="swiper-slide flights-slider__item">
+        <div class="flights-card">
+          <div class="flights-card__mediabox">
+            <img src="images/flight1.jpg" alt="">
+          </div>
+          <div class="flights-card__body">
+            <div class="flights-card__title">Иркутск-Москва</div>
+            <div class="flights-card__ptice">от <span>5000₽</span></div>
+          </div>          
+        </div>
+      </div>
+      <div class="swiper-slide flights-slider__item">
+        <div class="flights-card">
+          <div class="flights-card__mediabox">
+            <img src="images/flight2.jpg" alt="">
+          </div>
+          <div class="flights-card__body">
+            <div class="flights-card__title">Владивосток-Москва</div>
+            <div class="flights-card__ptice">от <span>5000₽</span></div>
+          </div>          
+        </div>
+      </div>
+      <div class="swiper-slide flights-slider__item">
+        <div class="flights-card">
+          <div class="flights-card__mediabox">
+            <img src="images/flight3.jpg" alt="">
+          </div>
+          <div class="flights-card__body">
+            <div class="flights-card__title">Новосибирск-Москва</div>
+            <div class="flights-card__ptice">от <span>5000₽</span></div>
+          </div>          
+        </div>
+      </div>
+      <div class="swiper-slide flights-slider__item">
+        <div class="flights-card">
+          <div class="flights-card__mediabox">
+            <img src="images/flight4.jpg" alt="">
+          </div>
+          <div class="flights-card__body">
+            <div class="flights-card__title">Санкт-Петербург-Москва</div>
+            <div class="flights-card__ptice">от <span>5000₽</span></div>
+          </div>          
+        </div>
+      </div>
+       
+    </div>
+    
+
+    
+
+    
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="slider__btn slider__btn_prev flights-slider__btn flights-slider__btn_prev"></div>
+  <div class="slider__btn slider__btn_next flights-slider__btn flights-slider__btn_next"></div>
+</div>
+
+		</div>
+
+
+		<div class="form-block frame">
+			<h2>Забронировать отель</h2>
+			<!--  <div class="form-block__form-cont form-block__form-cont_mobile">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/2b48ab3928afbde9bb5e4332e759fd83.js?v=2009" async></script>
+			</div>
+			<div class="form-block__form-cont form-block__form-cont_tablet">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/cb8df5ad5deaa0208c08ff5f94f416d2.js?v=2009" async></script>
+			</div>  -->
+			<div class="form-block__form-cont form-block__form-cont_desctop">
+				<script charset="utf-8" src="//www.travelpayouts.com/widgets/f4169a20f511c4f6feb1d76f88a992eb.js?v=2009" async></script>
+			</div>
+		</div>
+		<div class="about-block frame">
+	<h2>Об аэропорте Шереметьево</h2>
+	<p>Шереме́тьево (IATA: SVO, ICAO: UUEE) — международный аэропорт федерального значения[5], один из четырёх основных аэропортов Москвы и Московской области, первый в России по объёму пассажиропотока, также входит в двадцатку крупнейших аэропортов Европы и топ-50 самых загруженных аэропортов мира.  </p>
+	
+		<div class="about-block__collapse-btn js-collapse-btn"><span>Читать дальше</span></div>
+		<div id="collapsecont" class="about-block__collapse">
+			<div id="collapseab" class="about-block__collapse-cont">
+				<p>Расположен к северо-западу от Москвы, на территории городского округа Химки Московской области, примерно на одинаковом расстоянии (в нескольких километрах) от городов Химки, Лобня и Долгопрудный. Расстояние от МКАД по Ленинградскому шоссе до терминала «А» — 13 км, до терминалов «D», «E» и «F» — 9 км.  </p>
+				<p>Шереметьево — аэропорт приписки авиакомпании «Аэрофлот».  </p>
+				<p>Аэропорт Шереметьево включает четыре пассажирских терминала: «А» (терминал бизнес-авиации), «B» (ранее Шереметьево-1), «D», «E», «F» (ранее Шереметьево-2), грузовые терминалы «Москва-Карго» и «Шереметьево-Карго».  </p>
+				<p>В результате консолидации активов АО «Международный аэропорт Шереметьево» владельцами акционерного общества стали ООО «Шереметьево Холдинг» (доля — 66 %), Росимущество (30,43 %), «Аэрофлот» и «ВЭБ Капитал».  </p>
+				<p>Генеральный директор АО «Международный аэропорт Шереметьево» (с 12 мая 2005 года) — Михаил Василенко. Изначально аэродром был построен как Центральный аэродром Военно-воздушных сил Советской армии ВС Союза ССР. 1 сентября 1953 года вышло Постановление Совета министров Союза ССР о строительстве Центрального аэродрома ВВС в районе населённого пункта Чашникова</p>
+			</div>
+		</div>
+	</div>
+</div>		
+
+
+	</div> <!-- eof container -->
+	<footer class="site-footer">
+		<div class="site-footer__top">
+	<img class="site-footer__logo" src="images/logo.png" alt="">
+</div>
+<div class="site-footer__bottom">
+	<div class="container">
+		<ul class="site-menu">
+			<li><a href="">О проекте</a></li>
+			<li><a href="#">Написать нам</a></li>
+			<li><a href="#">Porthub.ru</a></li>
+		</ul>
+	</div>	
+</div>
+
+	</footer>
+	
+</div>
+
+
+  <script src="js/libs.min.js"></script> 
+  <script src="js/main.min.js"></script> 
+
+
+
+  
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.site-footer {
+	background: linear-gradient(202.34deg, #0583F1 24.65%, rgba(48, 113, 169, 0.458333) 155.96%, rgba(37, 132, 216, 0) 251.01%), #0583F1;
+	&__logo{
+		width: 78px;
+		@media (min-width: 768px) {   
+			width: 160px;
+	  }
+	  @media (min-width: 992px) {   
+			width: auto;
+	  }
+
+	}
+	&__top {
+		padding: 22px 0 25px;
+		text-align: center;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		@media (min-width: 768px) {   
+			padding: 50px 0 58px;
+	  }
+	  @media (min-width: 768px) {   
+			padding: 85px 0 58px;
+	  }
+
+	}
+	&__bottom {
+		padding: 25px 0;
+		@media (min-width: 768px) {  
+			 padding: 56px 0;
+	  }
+	  @media (min-width: 992px) {  
+			 padding: 70px 0;
+	  }
+
+	}
+}
+
+.site-menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	li{
+		margin: 0 12px;
+		@media (min-width: 768px) {   
+			margin: 0 49px;
+	  }
+	  @media (min-width: 768px) {   
+			margin: 0 62px;
+	  }
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 10px;
+		@media (min-width: 768px) {  
+			font-size: 15px; 
+	  }
+	  @media (min-width: 768px) {  
+			font-size: 18px; 
+	  }
+	}
+}
+
+	@media (min-width: 768px) {   
+  }
